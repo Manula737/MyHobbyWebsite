@@ -72,3 +72,11 @@
   top: 7777px;
   color: rgb(75, 0, 130);
 }
+
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}

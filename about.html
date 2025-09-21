@@ -6,6 +6,7 @@
 
 <title>About</title>
  <link rel="stylesheet" href="styles.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <h1>About my hobby</h1><hr>
 
 
@@ -25,8 +26,10 @@
 
 <style>table {
   font-family: arial, sans-serif;
+  font-size: 20px;
+  font-align: center;
   border-collapse: collapse;
-  width: 100%;
+  width: 100.7%;
   background-color: lavender;
 }
 
@@ -35,7 +38,11 @@ td, th {
   text-align: left;
   padding: 8px;
   color: purple;
+   text-align: center;
 }
+
+
+ 
 
 tr:nth-child(even) {
   background-color: plum;
@@ -79,6 +86,54 @@ tr:nth-child(even) {
 </table>
 
 
+
+<style>
+.container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(197, 185, 229);
+
+  margin-right: auto;
+  font-size: purple;
+  grid-row: 100%;
+}
+.container > div {
+
+  background-color: plum(150, 4, 255);
+ border: collapse;
+   border-style: solid;
+   border-width: 1px;
+  font-size: 17px;
+  text-align: center;
+  font-size: purple;
+  background-color: plum;
+  width: 101.7%;
+}
+
+
+    .img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<div class="container">
+  <div>Ferrari</div>
+  <div>Lambroghini</div>
+  <div>Supra</div>  
+  <div>Porshe</div>
+  <div>BYD U9</div>
+  <div>Buggati</div>  
+  <div>Pagani</div>
+  <div>McLaren</div>
+  <div>Koenigsegg</div>
+</div>
 
 </head>
 <body>
